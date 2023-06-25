@@ -1,0 +1,6 @@
+.button {
+    @apply bg-indigo-50 p-2 rounded-b-md;
+    &:hover {
+        @apply bg-amber-900;
+    }
+}

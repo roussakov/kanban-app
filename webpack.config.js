@@ -66,5 +66,6 @@ module.exports = {
       template: './public/index.html'
     }),
     new ProgressPlugin()
-  ]
+  ],
+  devtool: 'eval-source-map'
 };

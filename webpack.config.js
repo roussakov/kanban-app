@@ -17,10 +17,10 @@ const getStyleLoaders = () => ([
       },
       'postcss-loader'
     ],
-    exclude: [/node_modules/, /main\.css$/]
+    exclude: [/node_modules/, /global\.css$/]
   },
   {
-    test: /main\.css$/,
+    test: /global\.css$/,
     use: ['style-loader', 'css-loader', 'postcss-loader'],
     exclude: /node_modules/
   }
